@@ -42,9 +42,28 @@
       visibility: visible;
     }
   }
-  
-  ul li { list-style: circle; }
+    ul{
+      //font-size: 14px;
+      margin: 10px 0;
+    }
+  ol, ul {
+    list-style: none outside none;
+    padding: 0;
+  }
 
+  //ul li { list-style-type:decimal }
+ ul li:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 1px solid #999;
+    //border-radius: 10px;
+    background: #aaa;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+  }
   img {
     box-sizing: border-box;
     margin: auto;
