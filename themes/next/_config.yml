@@ -3,10 +3,12 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+#favicon: /favicon.ico
+favicon: /resizeApi.png
+
 
 # Set default keywords (Use a comma to separate)
-keywords: "DempeZheng"
+keywords: "Dempe"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -253,9 +255,14 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: zhizus
-#duoshuo_hotartical: true
 
+#changyan
+changyan:
+  enable: false
+  appid: cytdnkRx0
+  appkey: 080fea5e61e4f69f4f31d0d3b6483046
+
+#baidushare: true
 # Disqus
 #disqus_shortname:
 
