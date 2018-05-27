@@ -8,7 +8,6 @@
       {% if theme.wechatpay %}
         <div id="wechat" style="display: inline-block">
           <img id="wechat_qr" src="{{ theme.wechatpay }}" alt="{{ theme.author }} WeChat Pay"/>
-          <p>微信打赏</p>
         </div>
       {% endif %}
       {% if theme.alipay %}

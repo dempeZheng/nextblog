@@ -417,7 +417,8 @@ version: 5.1.0
 
 
 reward_comment: 大侠劫富济贫啦！
-wechatpay: /images/dempe/227169526633540.png
+#wechatpay: /images/dempe/227169526633540.png
+wechatpay: /images/dempe/20180527112524.jpg
 
 
 links_title: Links
