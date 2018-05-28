@@ -1,6 +1,11 @@
 ## 环境安装
 1）安装nodejs npm hexo
+
+> npm install -g hexo-cli
+
+
 2）设置github ssh key
+
 
 ## 写博客
 编辑 source\_post目录下面的markdown文件
