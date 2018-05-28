@@ -17,3 +17,5 @@ hexo server
 
 ## 发布
  发布->执行g_deploy.bat发布
+ 
+ ceshi

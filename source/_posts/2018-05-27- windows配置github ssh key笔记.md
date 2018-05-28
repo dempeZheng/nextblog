@@ -27,6 +27,21 @@ keywords: git,ssh,window,key
 ```
 ssh-keygen -t rsa -C "email@email.com"
 ```
+~/.ssh目录下面会生成 id_rsa&id_rsa.pub两个文件。
+
+### ssh-keygen
+>-b：指定密钥长度； 
+-e：读取openssh的私钥或者公钥文件； 
+-C：添加注释； 
+-f：指定用来保存密钥的文件名； 
+-i：读取未加密的ssh-v2兼容的私钥/公钥文件，然后在标准输出设备上显示openssh兼容的私钥/公钥； 
+-l：显示公钥文件的指纹数据； 
+-N：提供一个新密语； 
+-P：提供（旧）密语；
+-q：静默模式； 
+-t：指定要创建的密钥类型。
+
+
 2）git设置develop key（这里以github为例）
 
 可以设置项目级别的ssh key，也可以设置为全局的，这里是家里的个人电脑，直接设置为全局的。
@@ -47,6 +62,33 @@ ssh -T git@github.com
 ```
 Hi username! You've successfully authenticated, but GitHub does not
 provide shell access.
+```
+
+
+
+## 补充->多个账号的配置
+
+事实上，我们常常会需要配置多个账号，比如公司的gitlab，个人github账号。
+大体上是一样的，只是多了个config配置。
+1)生成密钥，加上-f指定文件名
+
+```
+ssh-keygen -t rsa -C "email@email.com" -f ~/.ssh/id_rsa_github
+```
+
+2)在~/.ssh文件加下面新增config文件，加入配置
+```
+# gitlab
+Host git.XXXX
+    HostName git.XXXX
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa
+
+# github
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_github
 ```
 
 ## 参考文档
