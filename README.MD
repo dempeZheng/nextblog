@@ -3,6 +3,12 @@
 
 > npm install -g hexo-cli
 
+npm install hexo --save'
+
+npm install hexo-cli -g
+npm install
+hexo server
+
 
 2）设置github ssh key
 
