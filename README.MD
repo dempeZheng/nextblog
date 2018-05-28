@@ -12,7 +12,6 @@ hexo server
 
 2）设置github ssh key
 
-
 ## 写博客
 编辑 source\_post目录下面的markdown文件
 
