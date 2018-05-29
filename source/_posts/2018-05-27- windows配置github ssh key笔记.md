@@ -29,7 +29,8 @@ ssh-keygen -t rsa -C "email@email.com"
 ```
 ~/.ssh目录下面会生成 id_rsa&id_rsa.pub两个文件。
 
-### ssh-keygen
+### ssh-
+
 >-b：指定密钥长度； 
 -e：读取openssh的私钥或者公钥文件； 
 -C：添加注释； 
