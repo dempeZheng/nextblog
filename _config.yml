@@ -45,7 +45,9 @@ highlight:
   tab_replace:
 
 
-
+marked:
+   gfm: true
+   breaks: false
 
 # Category & Tag
 default_category: uncategorized
