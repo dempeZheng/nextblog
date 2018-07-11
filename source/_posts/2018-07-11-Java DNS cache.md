@@ -2,7 +2,7 @@
 layout: post
 title:  "Java DNS Cache小记"
 date:  2018-07-11 12:39:04
-type: test
+type: 札记
 categories: [札记]
 keywords: java,dns,cache
 ---
