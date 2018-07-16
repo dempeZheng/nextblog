@@ -2,8 +2,8 @@
 layout: post
 title:  "记一次Druid连接池CannotGetJdbcConnectionException问题排查"
 date:  2018-07-16 22:39:04
-type: 并发
-categories: [线上排查]
+type: case
+categories: [case]
 keywords: druid,CannotGetJdbcConnectionException,hystrix,中断,排查
 ---
 
