@@ -140,7 +140,7 @@ private static final int DEFAULT_INITIAL_MAX_CAPACITY = 32768; // Use 32k instan
  int maxCapacity = SystemPropertyUtil.getInt("io.netty.recycler.maxCapacity", DEFAULT_INITIAL_MAX_CAPACITY);
 ```
 当然，还有一个问题需要确认，内存的申请和回收速度是否同步，如果是同步的那么这个queue里面的对象就不会膨胀。
-[netty内存分配Recycler容量膨胀问题跟踪](http://code.zhizus.com/2017-03-31-netty-buffer-recycler.html)
+[netty内存分配Recycler容量膨胀问题跟踪](http://www.zhizus.com/2017-03-31-netty-buffer-recycler.html)
 
 ## 4.解决方案
 严格来说，这种情况不能算内存泄漏，如果内存分配再大点，IO线程数量设置少些，也是没什么问题的。但是netty也给我们提供了一些解决方案。

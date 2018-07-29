@@ -5,7 +5,7 @@ date:  2017-03-31
 categories: [netty]
 keywords: netty,ByteBuf,pool,outOfMemory,Recycler
 ---
-上一篇：[记一次netty内存溢出的问题(上)](http://code.zhizus.com/2017-03-28-netty-outofmemory.html)
+上一篇：[记一次netty内存溢出的问题(上)](http://www.zhizus.com/2017-03-28-netty-outofmemory.html)
 
 
 在压测基于netty的RPC框架过程中发现了老生代的内存会不断膨胀，即便触发`full gc`也不会被回收。通过工具dump下来发现跟Recycler相关。

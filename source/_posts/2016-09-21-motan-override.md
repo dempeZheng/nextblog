@@ -60,23 +60,23 @@ keywords: motan,源码,包结构,概述
 ```
 这个包是motan的核心实现，里面的大部分代码，接下的文章都会涉及到。
 
-①[motan-容灾策略](http://code.zhizus.com/2016-09-21-motan-hastratege.html)
+①[motan-容灾策略](http://www.zhizus.com/2016-09-21-motan-hastratege.html)
 
-②[motan-负载均衡](http://code.zhizus.com/2016-09-20-motan-loadbalance.html)
+②[motan-负载均衡](http://www.zhizus.com/2016-09-20-motan-loadbalance.html)
 
-③[motan-编解码](http://code.zhizus.com/2016-09-23-motan-codec.html)
+③[motan-编解码](http://www.zhizus.com/2016-09-23-motan-codec.html)
 
-⑤[motan-SPI机制扩展](http://code.zhizus.com/2016-09-19-motan-spi.html)
+⑤[motan-SPI机制扩展](http://www.zhizus.com/2016-09-19-motan-spi.html)
 
-⑦[motan-过滤器](http://code.zhizus.com/2016-09-21-motan-filter.html)
+⑦[motan-过滤器](http://www.zhizus.com/2016-09-21-motan-filter.html)
 
-⑨[motan-protocol](http://code.zhizus.com/2016-09-21-motan-protocol.html)
+⑨[motan-protocol](http://www.zhizus.com/2016-09-21-motan-protocol.html)
 
-⑫[motan-序列化]http://code.zhizus.com/2016-09-22-motan-serialize.html)
+⑫[motan-序列化]http://www.zhizus.com/2016-09-22-motan-serialize.html)
 
 ## 补充
 
-[motan-netty-client异步消息](http://code.zhizus.com/2016-09-19-motan-clientMessage.html)
+[motan-netty-client异步消息](http://www.zhizus.com/2016-09-19-motan-clientMessage.html)
 
-[motan-rpc](http://code.zhizus.com/2016-09-23-motan-rpc.html)
+[motan-rpc](http://www.zhizus.com/2016-09-23-motan-rpc.html)
 
