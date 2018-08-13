@@ -9,6 +9,9 @@ keywords: mysql,InnoDB,profiling
 ## profiling
 
 >The SHOW PROFILE and SHOW PROFILES statements display profiling information that indicates resource usage for statements executed during the course of the current session.
+
+`mysql profiling 对定位一条语句的I/O消耗和CPU消耗非常重要`
+
 ## 语法
 
 ```sql
