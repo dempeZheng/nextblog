@@ -29,6 +29,7 @@ keywords: mysql,InnoDB,seconds_behind_master
 4）从库重放relay log的sql线程或者接收binlog的IO线程假死造成的从库延时，`seconds_behind_master`这个指标也监控不到。  
 
 
+
 ## 参考文档
 
 https://www.cnblogs.com/billyxp/p/3470376.html
