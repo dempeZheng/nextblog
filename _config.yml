@@ -86,16 +86,17 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  message: "code blog"
+#  repository:
+#    github: git@github.com:dempeZheng/code.git,gh-pages
+
+
 deploy:
   type: git
-  message: "code blog"
-  repository:
-    github: git@github.com:dempeZheng/code.git,gh-pages
-#    coding: git@git.coding.net:dempe/blog.git,coding-pages
-#  repo: https://git.coding.net/dempe/nextblog.git
-#  branch: master
-
-
+  repo: https://github.com/dempeZheng/code.git
+  branch: gh-pages
 
 
 baidu_analytics: f75c9cec9ecead0dfce9a108b9688072
