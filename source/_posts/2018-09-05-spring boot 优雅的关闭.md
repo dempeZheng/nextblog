@@ -220,7 +220,7 @@ Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
 }));
 System.exit(0);
 ```
-
+【注意】**通过Signal&System.exit(),JVM不管线程是否daemon，都不会等线程执行完成。shutdownhook实现需要注意**。
 通过 `threadPool.awaitTermination(10, TimeUnit.SECONDS);`方法将hook线程变成同步的，线程池任务执行完，hook线程才能返回，程序才会退出。
 
 ## springboot的安全关闭
