@@ -8,19 +8,63 @@ keywords: idea,material theme ui
 ---
 
 ## IntelliJ IDEA推荐设置
-[IntelliJ IDEA 推荐设置讲解](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/settings-recommend-introduce.html)
 
-这篇文章推荐设置还是不错的，
-具体设置包括以下几个方面，详细步骤请参考原文。
-- 1. Auto Import配置，让导入包更智能
-- 2. 支持ctrl+鼠标放大屏幕，代码review的时候比较很方便
-- 3. 自定义快捷键
-- 4. 显示行号
-- 5. Java代码注释风格修改
-- 6. 隐藏.idea目录
+具体设置包括以下几个方面（详细步骤请参考原文[IntelliJ IDEA 推荐设置讲解](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/settings-recommend-introduce.html)）：
+- 1.Auto Import配置，让导入包更智能
+- 2.支持ctrl+鼠标放大屏幕，代码review的时候比较很方便
+- 3.自定义快捷键
+- 4.显示行号
+- 5.Java代码注释风格修改
+- 6.隐藏.idea目录
+
+## IntelliJ主题优化
+一直以来也是用的IDEA的默认浅色主题，默认提供的主题其实已经非常不错了。
+
+最近，才突发奇想想换一个新鲜点的主题， [color-themes（IDEA主题）](http://color-themes.com/?view=index)网站上面找了很久，也没有找到满意的。
+### IDEA主题导入
+-   [color-themes（IDEA主题）](http://color-themes.com/?view=index) 下载主题jar
+- 导入主题
+![Alt text](../images/20180915192241.png)
+由于不太适应dark系列的主题，且很多主题进去在细节上面处理总是感觉有点欠缺，最终也没能找到满意的主题。
+
+直到发现了`Material Theme UI`，才发现原来IDEA的主题还有这么多选择。有种发现新大陆的感觉。只需要下载插件，各种主题配色，真的是很惊艳。
+![Alt text](../images/20180915192824.png)
+
+当然我依然喜欢浅色系，选择了`ONE LIGHT`主题配色，但是不排除以后会切换到其他的主题，支持一键切换，而且深色主题做的也真的是非常完美。
+颜值如下图：
+>个人习惯的浅色系：
+![Alt text](../images/20180915233819.png)
+深色系依然惊艳，重要的是支持快捷键切换
+![Alt text](../images/20180915234110.png)
+
+
+## IntelliJ推荐插件
+- 1.Alibaba Java Coding Guidelines(阿里巴巴出的代码规范检查插件)
+>强烈推荐，真的是太惊艳了，最近发现最好的插件，做代码规范首推！
+
+![Alt text](../images/20180915194349.png)
+
+- 2.Key promoter(快捷键提示统计，快捷键是IDEA的亮点之一)
+- 3.GsonFormat	把 JSON 字符串直接实例化成类
+- 4.Material Theme UI:这个也是强烈推荐，支持好多优美的主题，装上后写代码的欲望爆棚。
+- 5.String Manipulation:驼峰式命名和下划线命名交替变化
+- 6.Rainbow Brackets:对各个对称括号进行着色，方便查看
+- 7.Grep Console:自定义设置控制台输出颜色
+可以将日志按级别输出不同的颜色，方便查阅
+
+![Alt text](../images/20180915225353.png)
+- 8.IdeaVim 习惯vim可以装这个插件
+- 9.Bytecode Viewer 查看字节码的插件，对于学习jvm很有帮助
+![Alt text](../images/20180915233207.png)
+
+## IntelliJ IDEA 其他黑科技
+- 1.live Template
+- 2.添加背景(不过这个貌似没有太大的意义，好玩而已）
+
 ## IntelliJ 快捷键设置
-- 1. 第一步首先要禁用掉搜狗输入法的快捷键，搜狗输入法快捷键没有太大的必要，且很多和idea的快捷键冲突。
-- 2. 定制自己的快捷键，这个看个人喜好
+- 1.第一步首先要禁用掉搜狗输入法的快捷键，搜狗输入法快捷键没有太大的必要，且很多和idea的快捷键冲突。
+- 2.定制自己的快捷键，这个看个人喜好
+>
 <h2 id="2b61e0d5977f2e38f06e16281c802b47">Ctrl</h2>
 <table>
 <thead>
@@ -745,41 +789,9 @@ keywords: idea,material theme ui
 </tbody>
 </table>
 
-## IntelliJ主题优化
-一直以来也是用的IDEA的默认浅色主题，默认提供的主题其实已经非常不错了。
 
-最近，才突发奇想想换一个新鲜点的主题， [color-themes（IDEA主题）](http://color-themes.com/?view=index)网站上面找了很久，也没有找到满意的。
-### IDEA主题导入
--  [color-themes（IDEA主题）](http://color-themes.com/?view=index)下载主题jar
-- 导入主题
-![Alt text](../images/20180915192241.png)
-不太适应dark系列的主题，很多主题进去在细节上面处理总是感觉有点欠缺
-
-
-直到发现了`Material Theme UI`，才发现原来IDEA的主题还有这么多选择。有种发现新大陆的感觉。只需要下载插件，各种主题配色，真的是很惊艳。
-![Alt text](../images/20180915192824.png)
-
-当然我依然喜欢浅色系，选择了`ONE LIGHT`主题配色，但是不排除以后会切换到其他的主题，支持一键切换，而且深色主题做的也真的是非常完美
-![Alt text](../images/20180915194349.png)
-
-## IntelliJ推荐插件
-- 1. Alibaba Java Coding Guidelines(阿里巴巴出的代码规范检查插件)
->强烈推荐，真的是太惊艳了，最近发现最好的插件，做代码规范首推！
-![Alt text](../images/20180915193106.png)
-- 2. Key promoter(快捷键提示统计，快捷键是IDEA的亮点之一)
-- 3. GsonFormat	把 JSON 字符串直接实例化成类
-- 4. Material Theme UI:这个也是强烈推荐，支持好多优美的主题，装上后写代码的欲望爆棚。
-- 5. String Manipulation:驼峰式命名和下划线命名交替变化
-- 6. Rainbow Brackets:对各个对称括号进行着色，方便查看
-- 7. Grep Console:自定义设置控制台输出颜色
-可以将日志按级别输出不同的颜色，方便查阅
-- 8. IdeaVim 习惯vim可以装这个插件，
-![Alt text](../images/20180915225353.png)
-
-## IntelliJ IDEA 其他黑科技
-- 1.live Template
-- 2.添加背景(不过这个貌似没有太大的意义，好玩而已）
 ## 参考文档
+
 [极客学院IntelliJ IDEA教程](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/)
 
 [github.com/ChrisRM/material-theme-jetbrains#configuration](https://github.com/ChrisRM/material-theme-jetbrains#configuration)
